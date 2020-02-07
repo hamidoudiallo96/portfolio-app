@@ -1,0 +1,17 @@
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 50px;
+	.nav-list {
+		display: flex;
+		justify-content: space-evenly;
+		margin-right: 100px;
+		li {
+			padding: 20px;
+			margin-left: 90px;
+			list-style: none;
+		}
+	}
+}
